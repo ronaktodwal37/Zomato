@@ -5,9 +5,9 @@ function connectDB(){
     .then(()=>{
         console.log("MongoDB connected");  
     })
-    // .catch((err) => {
+    .catch((err) => {
         // console.log("MongoDB connection error:",err);
-    // })
+    })
 }
 
 // module.exports = connectDB;
